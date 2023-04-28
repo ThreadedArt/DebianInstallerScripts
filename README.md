@@ -19,3 +19,8 @@ We will assume the following when using these scripts
  - lamp.sh
 
 wget https://raw.githubusercontent.com/317dev-0001/DebianInstallerScripts/main/scripts/lamp.sh -O lamp.sh && bash lamp.sh
+
+
+- certbot.sh
+
+wget https://github.com/317dev-0001/DebianInstallerScripts/raw/main/scripts/certbot.sh -O certbot.sh && bash certbot.sh
