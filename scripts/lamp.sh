@@ -30,17 +30,17 @@ systemctl enable ufw
 
 # install apache
 
-apt install apache2
+apt install apache2 -y
 
 
 # install mariadb
 # we use this over the default mysql-server / mysql-client
 
-apt install mariadb-server
+apt install mariadb-server -y
 
 # install php
 
-apt install php libapache2-mod-php php-mysql
+apt install php libapache2-mod-php php-mysql -y
 
 ##
 ## PLEASE REMEMBER SECRUITY HAS NOT BEEN SETUP HERE AND MUST BE DONE MANUALLY BOTH WITH PHP, APACHE, MARIADB USING SECURE_INSTALLATION AMONG OTHE THINGS
