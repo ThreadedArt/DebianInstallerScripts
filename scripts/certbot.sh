@@ -3,12 +3,12 @@
 
 # update packages
 
-apt update -y && apt upgrade -y
+apt-get update -y && apt-get upgrade -y
 
 
 # Using Python-pip vs the annoying snapd
 
-apt install python3 python3-venv libaugeas0 -y
+apt-get install python3 python3-venv libaugeas0 -y
 
 
 # Setup virtual env
