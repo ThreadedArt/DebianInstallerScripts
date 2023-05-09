@@ -5,13 +5,13 @@
 
 # update and upgrade the packges
 
-apt update -y && apt upgrade -y
+apt-get update -y && apt-get upgrade -y
 
 
 # Firewall Setup
 
 # The Firewall Application
-apt install ufw -y
+apt-get install ufw -y
 
 # Open Port 80 and 443
 ufw allow in "WWW Full"
@@ -30,17 +30,17 @@ systemctl enable ufw
 
 # install apache
 
-apt install apache2 -y
+apt-get install apache2 -y
 
 
 # install mariadb
 # we use this over the default mysql-server / mysql-client
 
-apt install mariadb-server -y
+apt-get install mariadb-server -y
 
 # install php
 
-apt install php libapache2-mod-php php-mysql -y
+apt-get install php libapache2-mod-php php-mysql -y
 
 ##
 ## PLEASE REMEMBER SECRUITY HAS NOT BEEN SETUP HERE AND MUST BE DONE MANUALLY BOTH WITH PHP, APACHE, MARIADB USING SECURE_INSTALLATION AMONG OTHE THINGS
